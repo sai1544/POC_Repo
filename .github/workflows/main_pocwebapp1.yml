@@ -36,8 +36,8 @@ jobs:
         with:
           name: python-app
           path: |
-            app-service/               # 👈 Only include this folder
-            !app-service/antenv/       # 👈 Exclude virtual environment
+            app-service/**              # 👈 Only include this folder
+            !app-service/antenv/**       # 👈 Exclude virtual environment
 
   deploy:
     runs-on: ubuntu-latest
@@ -65,3 +65,4 @@ jobs:
         with:
           app-name: 'pocwebapp1'
           slot-name: 'Production'
+
