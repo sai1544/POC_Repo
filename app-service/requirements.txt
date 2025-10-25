@@ -1,2 +1,4 @@
-azure-functions
+flask
+azure-storage-blob
+gunicorn
 Pillow
