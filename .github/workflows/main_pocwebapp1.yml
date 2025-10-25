@@ -62,4 +62,5 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'pocwebapp1'
-          package: './app-service'   # 👈 specify app path clearly
+          package: './python-app/app-service'   # 👈 specify app path clearly
+
